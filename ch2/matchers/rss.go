@@ -11,7 +11,7 @@ import (
 )
 
 type (
-	// item 구조체는 RSS문서 내의 item 태그에 정의된 필드들에 대응하는 필드를 선언
+	// item 구조체는 RSS 문서 내의 item 태그에 정의된 필드들에 대응하는 필드를 선언
 	item struct {
 		XMLName     xml.Name `xml:"item"`
 		PubDate     string   `xml:"pubDate"`
