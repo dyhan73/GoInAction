@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	// 5개 원소로 구성된 정수 배열 선언, 제로값 초기화
 	var array [5]int
 	fmt.Println("len :", len(array), ", idx(1) : ", array[1]) // 5, 0
