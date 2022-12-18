@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const dataFile = "/Users/1001235/MyDev/ws_study/GoInAction/ch2/data/data.json" // 비공개 상수
+const dataFile = "C:\\Users\\sealo\\MyDev\\ws_study\\GoInAction\\ch2\\data\\data.json" // 비공개 상수
 
 // Feed 정보 구조체 (json 문서 내 필드이름과 매핑)
 type Feed struct {
