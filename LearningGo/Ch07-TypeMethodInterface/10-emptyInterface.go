@@ -18,7 +18,7 @@ func (ll *LinkedList) Insert(pos int, val interface{}) *LinkedList {
 	return ll
 }
 
-func main() {
+func main10() {
 	l := &LinkedList{
 		Value: "KK",
 		Next:  nil,
