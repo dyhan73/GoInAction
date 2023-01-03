@@ -54,7 +54,7 @@ func processAndGather(in <-chan int, processor func(int) int, num int) []int {
 	return result
 }
 
-func main() {
+func main510() {
 	//simpleWaitGroup()
 
 	num := 2
