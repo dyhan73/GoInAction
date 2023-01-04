@@ -127,7 +127,7 @@ func GatherAndProcess(ctx context.Context, data Input) (COut, error) {
 	return out, err
 }
 
-func main() {
+func main512() {
 	cOut, err := GatherAndProcess(context.Background(), Input{A: "aa", B: "bb"})
 	fmt.Println(cOut, err)
 }
